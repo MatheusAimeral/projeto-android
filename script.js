@@ -1,8 +1,9 @@
-var linksDeNav=['Home', 'Notícias', 'Curiosidades', 'Forum', 'Fale conosco', 'Quem Somos',];
+var linksDeNav=['Home', 'Notícias', 'Curiosidades', 'Forum', 'Fale conosco', 'Quem Somos'];
 var links=['', '','' ,'', '', '', '','' ,'', ''];
 var barraDeNavegação = document.getElementById ("navbar"); 
 var cabecalho = document.getElementById ('top');
-var corpo = document.getElementById ('body');
+const corpo = document.getElementById ('body');
+
 
 for (let i = 0; i < linksDeNav.length; i += 1) {
     var novoLink= document.createElement('a');
@@ -10,4 +11,13 @@ for (let i = 0; i < linksDeNav.length; i += 1) {
     novoLink.innerText=linksDeNav[i];
     novoLink.setAttribute('class', '');
     barraDeNavegação.appendChild(novoLink);
-    } 
+} 
+    
+
+
+var r= document.querySelector(':root')
+
+document.getElementById('b1').addEventListener('click', ()=> {
+    r.style.setProperty('--cor3', 'black');
+
+});
