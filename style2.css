@@ -209,6 +209,13 @@ footer a {
     iframe {
         height: 400px;        
     }
+    nav{
+        position: sticky;
+        top: 0;
+    }
+    body{
+        align-items: center;
+    }
 }
 
 a.external::after {
