@@ -13,11 +13,3 @@ for (let i = 0; i < linksDeNav.length; i += 1) {
     barraDeNavegação.appendChild(novoLink);
 } 
     
-
-
-var r= document.querySelector(':root')
-
-document.getElementById('b1').addEventListener('click', ()=> {
-    r.style.setProperty('--cor3', 'black');
-
-});
