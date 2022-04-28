@@ -124,11 +124,12 @@ article {
 article > h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor6));
 }
 
 article > h2 { 
     font-family: var(--fonte-android);
-    background: linear-gradient(to right, var(--cor1), (--cor6) );
+    background-image: linear-gradient(to right, var(--cor1), var(--cor6));
     color: var(--cor5);
 }
 
